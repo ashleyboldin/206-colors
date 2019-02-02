@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* CSS Document */
+/* CSS Document: My Project*/
 
 html, body {
   margin: 0px;
@@ -59,9 +59,11 @@ footer {
 /* Change the background colors below */
 
 @media (min-width: 768px) {
+  
   header {
     background-color: #f4f4f4;
   }
+
 
   #column-1 {
     background-color: #bdbf09;
@@ -73,19 +75,23 @@ footer {
 
   #column-3 {
     background-color: #095156;
+    width: 100%;
   }
 
   footer {
     background-color: #ffffff;
   }
   
+  .col-3 {
+  width: 50%;
+  }
 }
-
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
   header {
     background-color: #addfad;
+    overflow: auto;
   }
 
   #column-1 {
@@ -98,10 +104,17 @@ footer {
 
   #column-3 {
     background-color: #f50079;
+    width: 33.33%;
   }
 
   footer {
     background-color: #f4bbc4;
   }
    
+  .col-3 {
+  width: 33.33%;
+  }
+
 }
+
+
